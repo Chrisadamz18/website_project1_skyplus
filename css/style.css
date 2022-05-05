@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* main styling */
+
+body{
+font-family: "Roboto", "sans-serif";
+line-height: 1.7em;
+}
+
+a{
+    color: #6b0b0b;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 100%;
+    overflow:auto;
+    padding: 0 auto;
+}
+
+#navbar{ 
+    background:#6b0b0b;
+    color:#ffff;
+    overflow:auto;
+}
+#navbar a{
+    color:#ffff;
+    text-decoration:none;
+}
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+#navbar ul{
+    float: right;
+    padding: 20px;
+}
+#navbar ul li{
+    float:left;
+    list-style:none;
+}
+#navbar ul li a{
+    padding: 20px;
+    display: block;
+    text-align:center;
+}
+#navbar ul li a:hover, #navbar ul li a.current{
+    /* background:#ffff; */
+    color:#1e87d2;
+}
+
+/* For show case session */
+
+#showcase{ 
+    background:url(../images/img3.jpg) no-repeat center center/cover;
+    height: 500px;
+}
+#showcase .showcase-content{
+    padding: 100px;
+    text-align: center;
+    color:#1e87d2;
+}
+#showcase .showcase-content h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.text-primary{
+    color:#6b0b0b;
+    line-height:1.3em;
+}
+.lead{
+    font-size: 20px;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    background-color:#1e87d2;
+    padding:13px 20px;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#fff;
+}
+.btn:hover{
+    background-color:#6b0b0b;
+    color:#ffff;
+}
+/*Home info  */
+
+
+
+#home-info{
+    height:450px
+}
+
+#home-info .info-img{
+    background:url(../images/img4.jpg) no-repeat center center/cover;
+    float:left;
+    min-height: 100%;
+    width: 50%;
+}
+
+#home-info .info-content{
+    float:right;
+    width: 50%;
+    padding: 50px;
+    height:100%;
+    text-align: center;
+    overflow: hidden;
+    padding:50px 30px;
+
+}
+.bg-dark{
+    background-color:#6b0b0b;
+    color:#fff;
+}
+.btn-light{
+    background-color:#ffff;
+    color:#6b0b0b;
+}
+
+.bg-primary{
+    color:#1e87d2;
+
+}
+
+#home-info .info-content{
+    margin-bottom: 20px;
+}
